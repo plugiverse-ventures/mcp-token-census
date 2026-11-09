@@ -1,0 +1,43 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 1189,
+  "tool_count": 6,
+  "average_tokens": 198.17,
+  "tools": [
+    {
+      "name": "excel_copy_sheet",
+      "tokens": 94,
+      "percent": 7.91
+    },
+    {
+      "name": "excel_create_table",
+      "tokens": 115,
+      "percent": 9.67
+    },
+    {
+      "name": "excel_describe_sheets",
+      "tokens": 53,
+      "percent": 4.46
+    },
+    {
+      "name": "excel_format_range",
+      "tokens": 598,
+      "percent": 50.29
+    },
+    {
+      "name": "excel_read_sheet",
+      "tokens": 139,
+      "percent": 11.69
+    },
+    {
+      "name": "excel_write_to_sheet",
+      "tokens": 190,
+      "percent": 15.98
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

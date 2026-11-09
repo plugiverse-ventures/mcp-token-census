@@ -1,0 +1,38 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 3220,
+  "tool_count": 5,
+  "average_tokens": 644.0,
+  "tools": [
+    {
+      "name": "read_documentation",
+      "tokens": 510,
+      "percent": 15.84
+    },
+    {
+      "name": "read_sections",
+      "tokens": 572,
+      "percent": 17.76
+    },
+    {
+      "name": "search_table",
+      "tokens": 846,
+      "percent": 26.27
+    },
+    {
+      "name": "search_documentation",
+      "tokens": 927,
+      "percent": 28.79
+    },
+    {
+      "name": "recommend",
+      "tokens": 365,
+      "percent": 11.34
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

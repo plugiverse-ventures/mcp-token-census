@@ -1,0 +1,18 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 300,
+  "tool_count": 1,
+  "average_tokens": 300.0,
+  "tools": [
+    {
+      "name": "browser",
+      "tokens": 300,
+      "percent": 100.0
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

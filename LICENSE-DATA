@@ -1,0 +1,14 @@
+Data in this repository (CSV, JSON measure/slim/verify outputs, servers.txt,
+dataset.jsonld, llms.txt, and the numerical results published in README.md)
+is licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt the material for any purpose, even commercially,
+provided you give appropriate credit, provide a link to the license, and
+indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Deed: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+"MCP Token Census, November 2026" by Plugiverse SA Ltd, CC BY 4.0,
+https://github.com/plugiverse-ventures/mcp-token-census

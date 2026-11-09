@@ -1,0 +1,114 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 6,
+  "before_tokens": 1189,
+  "after_tokens": 1178,
+  "saved_tokens": 11,
+  "saved_percent": 0.93,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 11,
+      "tools_changed": [
+        "excel_write_to_sheet"
+      ]
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "excel_copy_sheet",
+      "before": 94,
+      "after": 94,
+      "saved": 0
+    },
+    {
+      "name": "excel_create_table",
+      "before": 115,
+      "after": 115,
+      "saved": 0
+    },
+    {
+      "name": "excel_describe_sheets",
+      "before": 53,
+      "after": 53,
+      "saved": 0
+    },
+    {
+      "name": "excel_format_range",
+      "before": 598,
+      "after": 598,
+      "saved": 0
+    },
+    {
+      "name": "excel_read_sheet",
+      "before": 139,
+      "after": 139,
+      "saved": 0
+    },
+    {
+      "name": "excel_write_to_sheet",
+      "before": 190,
+      "after": 179,
+      "saved": 11
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

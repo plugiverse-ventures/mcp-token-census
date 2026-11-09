@@ -1,0 +1,16 @@
+server,command,tools,tokens,avg,heaviest_tool,safe_slim_tokens,saved_pct
+notion,npx -y @notionhq/notion-mcp-server,24,17137,714,API-update-page-markdown (1267),4555,73.42
+desktop-commander,npx -y @wonderwhy-er/desktop-commander@latest,25,9763,391,start_search (1306),9011,7.7
+chrome-devtools,npx -y chrome-devtools-mcp@latest,32,6184,193,emulate (576),5639,8.81
+playwright,npx -y @playwright/mcp@latest,25,3892,156,browser_take_screenshot (309),3459,11.13
+aws-docs,uvx awslabs.aws-documentation-mcp-server@latest,5,3220,644,search_documentation (927),3096,3.85
+filesystem,npx -y @modelcontextprotocol/server-filesystem /tmp,16,2236,140,edit_file (280),1964,12.16
+everything,npx -y @modelcontextprotocol/server-everything,16,1686,105,gzip-file-as-resource (243),1414,16.13
+memory,npx -y @modelcontextprotocol/server-memory,9,1517,169,search_nodes (289),1340,11.67
+git,uvx mcp-server-git,14,1401,100,git_log (260),1195,14.7
+excel,npx -y @negokaz/excel-mcp-server,6,1189,198,excel_format_range (598),1178,0.93
+context7,npx -y @upstash/context7-mcp,2,1060,530,resolve-library-id (607),1026,3.21
+time,uvx mcp-server-time,3,505,168,get_time_ago (222),440,12.87
+sequential-thinking,npx -y @modelcontextprotocol/server-sequential-thinking,1,488,488,sequentialthinking (488),471,3.48
+browsermcp,npx -y @browsermcp/mcp@latest,1,300,300,browser (300),299,0.33
+fetch,uvx mcp-server-fetch,1,295,295,fetch (295),267,9.49

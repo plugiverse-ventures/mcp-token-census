@@ -1,0 +1,7 @@
+{"@context":"https://schema.org","@type":"Dataset","name":"MCP Token Census, November 2026",
+ "description":"Tool-definition token cost of 15 popular Model Context Protocol servers measured with toolism 0.2.0 (tiktoken o200k_base), before and after verified safe schema slimming.",
+ "datePublished":"2026-11-09","license":"https://creativecommons.org/licenses/by/4.0/",
+ "creator":{"@type":"Organization","name":"Plugiverse SA Ltd"},
+ "measurementTechnique":"toolism measure --mcp; toolism slim --level safe --verify",
+ "variableMeasured":["tool count","tool-definition tokens","tokens after safe slimming","percent saved"],
+ "distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://github.com/plugiverse-ventures/mcp-token-census/raw/main/data/census-2026-11-09.csv"}]}

@@ -1,0 +1,144 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 9,
+  "before_tokens": 1517,
+  "after_tokens": 1340,
+  "saved_tokens": 177,
+  "saved_percent": 11.67,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 24,
+      "tools_changed": [
+        "create_entities",
+        "create_relations",
+        "delete_relations"
+      ]
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 153,
+      "tools_changed": [
+        "create_entities",
+        "create_relations",
+        "add_observations",
+        "delete_entities",
+        "delete_observations",
+        "delete_relations",
+        "read_graph",
+        "search_nodes",
+        "open_nodes"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "create_entities",
+      "before": 181,
+      "after": 156,
+      "saved": 25
+    },
+    {
+      "name": "create_relations",
+      "before": 136,
+      "after": 111,
+      "saved": 25
+    },
+    {
+      "name": "add_observations",
+      "before": 121,
+      "after": 104,
+      "saved": 17
+    },
+    {
+      "name": "delete_entities",
+      "before": 76,
+      "after": 59,
+      "saved": 17
+    },
+    {
+      "name": "delete_observations",
+      "before": 121,
+      "after": 104,
+      "saved": 17
+    },
+    {
+      "name": "delete_relations",
+      "before": 135,
+      "after": 110,
+      "saved": 25
+    },
+    {
+      "name": "read_graph",
+      "before": 228,
+      "after": 211,
+      "saved": 17
+    },
+    {
+      "name": "search_nodes",
+      "before": 289,
+      "after": 272,
+      "saved": 17
+    },
+    {
+      "name": "open_nodes",
+      "before": 230,
+      "after": 213,
+      "saved": 17
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

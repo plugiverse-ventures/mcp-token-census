@@ -1,0 +1,138 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 3892,
+  "tool_count": 25,
+  "average_tokens": 155.68,
+  "tools": [
+    {
+      "name": "browser_close",
+      "tokens": 44,
+      "percent": 1.13
+    },
+    {
+      "name": "browser_resize",
+      "tokens": 80,
+      "percent": 2.06
+    },
+    {
+      "name": "browser_console_messages",
+      "tokens": 165,
+      "percent": 4.24
+    },
+    {
+      "name": "browser_handle_dialog",
+      "tokens": 85,
+      "percent": 2.18
+    },
+    {
+      "name": "browser_emulate_media",
+      "tokens": 253,
+      "percent": 6.5
+    },
+    {
+      "name": "browser_evaluate",
+      "tokens": 168,
+      "percent": 4.32
+    },
+    {
+      "name": "browser_file_upload",
+      "tokens": 85,
+      "percent": 2.18
+    },
+    {
+      "name": "browser_drop",
+      "tokens": 212,
+      "percent": 5.45
+    },
+    {
+      "name": "browser_find",
+      "tokens": 249,
+      "percent": 6.4
+    },
+    {
+      "name": "browser_fill_form",
+      "tokens": 229,
+      "percent": 5.88
+    },
+    {
+      "name": "browser_press_key",
+      "tokens": 83,
+      "percent": 2.13
+    },
+    {
+      "name": "browser_type",
+      "tokens": 172,
+      "percent": 4.42
+    },
+    {
+      "name": "browser_navigate",
+      "tokens": 64,
+      "percent": 1.64
+    },
+    {
+      "name": "browser_navigate_back",
+      "tokens": 52,
+      "percent": 1.34
+    },
+    {
+      "name": "browser_network_requests",
+      "tokens": 199,
+      "percent": 5.11
+    },
+    {
+      "name": "browser_network_request",
+      "tokens": 190,
+      "percent": 4.88
+    },
+    {
+      "name": "browser_run_code_unsafe",
+      "tokens": 181,
+      "percent": 4.65
+    },
+    {
+      "name": "browser_take_screenshot",
+      "tokens": 309,
+      "percent": 7.94
+    },
+    {
+      "name": "browser_snapshot",
+      "tokens": 168,
+      "percent": 4.32
+    },
+    {
+      "name": "browser_click",
+      "tokens": 180,
+      "percent": 4.62
+    },
+    {
+      "name": "browser_drag",
+      "tokens": 157,
+      "percent": 4.03
+    },
+    {
+      "name": "browser_hover",
+      "tokens": 96,
+      "percent": 2.47
+    },
+    {
+      "name": "browser_select_option",
+      "tokens": 136,
+      "percent": 3.49
+    },
+    {
+      "name": "browser_tabs",
+      "tokens": 190,
+      "percent": 4.88
+    },
+    {
+      "name": "browser_wait_for",
+      "tokens": 145,
+      "percent": 3.73
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

@@ -1,0 +1,123 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 5,
+  "before_tokens": 3220,
+  "after_tokens": 3096,
+  "saved_tokens": 124,
+  "saved_percent": 3.85,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 100,
+      "tools_changed": [
+        "read_documentation",
+        "read_sections",
+        "search_table",
+        "search_documentation",
+        "recommend"
+      ]
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 6,
+      "tools_changed": [
+        "search_table"
+      ]
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 12,
+      "tools_changed": [
+        "search_table",
+        "search_documentation"
+      ]
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 6,
+      "tools_changed": [
+        "read_documentation",
+        "read_sections",
+        "search_table",
+        "search_documentation",
+        "recommend"
+      ]
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "read_documentation",
+      "before": 510,
+      "after": 488,
+      "saved": 22
+    },
+    {
+      "name": "read_sections",
+      "before": 572,
+      "after": 556,
+      "saved": 16
+    },
+    {
+      "name": "search_table",
+      "before": 846,
+      "after": 811,
+      "saved": 35
+    },
+    {
+      "name": "search_documentation",
+      "before": 927,
+      "after": 886,
+      "saved": 41
+    },
+    {
+      "name": "recommend",
+      "before": 365,
+      "after": 355,
+      "saved": 10
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

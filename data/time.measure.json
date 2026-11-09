@@ -1,0 +1,28 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 505,
+  "tool_count": 3,
+  "average_tokens": 168.33,
+  "tools": [
+    {
+      "name": "get_current_time",
+      "tokens": 92,
+      "percent": 18.22
+    },
+    {
+      "name": "convert_time",
+      "tokens": 191,
+      "percent": 37.82
+    },
+    {
+      "name": "get_time_ago",
+      "tokens": 222,
+      "percent": 43.96
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

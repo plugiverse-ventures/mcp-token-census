@@ -1,0 +1,254 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 25,
+  "before_tokens": 3892,
+  "after_tokens": 3459,
+  "saved_tokens": 433,
+  "saved_percent": 11.13,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 8,
+      "tools_changed": [
+        "browser_fill_form"
+      ]
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 425,
+      "tools_changed": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_emulate_media",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_find",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "browser_close",
+      "before": 44,
+      "after": 27,
+      "saved": 17
+    },
+    {
+      "name": "browser_resize",
+      "before": 80,
+      "after": 63,
+      "saved": 17
+    },
+    {
+      "name": "browser_console_messages",
+      "before": 165,
+      "after": 148,
+      "saved": 17
+    },
+    {
+      "name": "browser_handle_dialog",
+      "before": 85,
+      "after": 68,
+      "saved": 17
+    },
+    {
+      "name": "browser_emulate_media",
+      "before": 253,
+      "after": 236,
+      "saved": 17
+    },
+    {
+      "name": "browser_evaluate",
+      "before": 168,
+      "after": 151,
+      "saved": 17
+    },
+    {
+      "name": "browser_file_upload",
+      "before": 85,
+      "after": 68,
+      "saved": 17
+    },
+    {
+      "name": "browser_drop",
+      "before": 212,
+      "after": 195,
+      "saved": 17
+    },
+    {
+      "name": "browser_find",
+      "before": 249,
+      "after": 232,
+      "saved": 17
+    },
+    {
+      "name": "browser_fill_form",
+      "before": 229,
+      "after": 204,
+      "saved": 25
+    },
+    {
+      "name": "browser_press_key",
+      "before": 83,
+      "after": 66,
+      "saved": 17
+    },
+    {
+      "name": "browser_type",
+      "before": 172,
+      "after": 155,
+      "saved": 17
+    },
+    {
+      "name": "browser_navigate",
+      "before": 64,
+      "after": 47,
+      "saved": 17
+    },
+    {
+      "name": "browser_navigate_back",
+      "before": 52,
+      "after": 35,
+      "saved": 17
+    },
+    {
+      "name": "browser_network_requests",
+      "before": 199,
+      "after": 182,
+      "saved": 17
+    },
+    {
+      "name": "browser_network_request",
+      "before": 190,
+      "after": 173,
+      "saved": 17
+    },
+    {
+      "name": "browser_run_code_unsafe",
+      "before": 181,
+      "after": 164,
+      "saved": 17
+    },
+    {
+      "name": "browser_take_screenshot",
+      "before": 309,
+      "after": 292,
+      "saved": 17
+    },
+    {
+      "name": "browser_snapshot",
+      "before": 168,
+      "after": 151,
+      "saved": 17
+    },
+    {
+      "name": "browser_click",
+      "before": 180,
+      "after": 163,
+      "saved": 17
+    },
+    {
+      "name": "browser_drag",
+      "before": 157,
+      "after": 140,
+      "saved": 17
+    },
+    {
+      "name": "browser_hover",
+      "before": 96,
+      "after": 79,
+      "saved": 17
+    },
+    {
+      "name": "browser_select_option",
+      "before": 136,
+      "after": 119,
+      "saved": 17
+    },
+    {
+      "name": "browser_tabs",
+      "before": 190,
+      "after": 173,
+      "saved": 17
+    },
+    {
+      "name": "browser_wait_for",
+      "before": 145,
+      "after": 128,
+      "saved": 17
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

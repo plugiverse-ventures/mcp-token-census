@@ -1,0 +1,5 @@
+# MCP Token Census (November 2026)
+> Measured tool-definition token cost of 15 popular MCP servers, plus how much toolism's safe slimming removes. Reproducible; raw data in /data.
+- [README with results table](README.md): 15 servers, 180 tools, 50,873 tokens total, 30.5% removable; Notion 17,137 -> 4,555.
+- [CSV](data/census-2026-11-09.csv)
+- [Reproduce script](reproduce.sh)

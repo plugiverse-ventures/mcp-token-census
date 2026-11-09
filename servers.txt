@@ -1,0 +1,15 @@
+time|uvx mcp-server-time
+fetch|uvx mcp-server-fetch
+git|uvx mcp-server-git
+filesystem|npx -y @modelcontextprotocol/server-filesystem /tmp
+memory|npx -y @modelcontextprotocol/server-memory
+everything|npx -y @modelcontextprotocol/server-everything
+sequential-thinking|npx -y @modelcontextprotocol/server-sequential-thinking
+playwright|npx -y @playwright/mcp@latest
+context7|npx -y @upstash/context7-mcp
+chrome-devtools|npx -y chrome-devtools-mcp@latest
+notion|npx -y @notionhq/notion-mcp-server
+aws-docs|uvx awslabs.aws-documentation-mcp-server@latest
+browsermcp|npx -y @browsermcp/mcp@latest
+desktop-commander|npx -y @wonderwhy-er/desktop-commander@latest
+excel|npx -y @negokaz/excel-mcp-server

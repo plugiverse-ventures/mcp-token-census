@@ -1,0 +1,189 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 16,
+  "before_tokens": 2236,
+  "after_tokens": 1964,
+  "saved_tokens": 272,
+  "saved_percent": 12.16,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 272,
+      "tools_changed": [
+        "read_file",
+        "read_text_file",
+        "read_media_file",
+        "read_multiple_files",
+        "write_file",
+        "append_file",
+        "edit_file",
+        "create_directory",
+        "list_directory",
+        "list_directory_with_sizes",
+        "directory_tree",
+        "move_file",
+        "copy_file",
+        "search_files",
+        "get_file_info",
+        "list_allowed_directories"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "read_file",
+      "before": 133,
+      "after": 116,
+      "saved": 17
+    },
+    {
+      "name": "read_text_file",
+      "before": 212,
+      "after": 195,
+      "saved": 17
+    },
+    {
+      "name": "read_media_file",
+      "before": 93,
+      "after": 76,
+      "saved": 17
+    },
+    {
+      "name": "read_multiple_files",
+      "before": 141,
+      "after": 124,
+      "saved": 17
+    },
+    {
+      "name": "write_file",
+      "before": 93,
+      "after": 76,
+      "saved": 17
+    },
+    {
+      "name": "append_file",
+      "before": 153,
+      "after": 136,
+      "saved": 17
+    },
+    {
+      "name": "edit_file",
+      "before": 280,
+      "after": 263,
+      "saved": 17
+    },
+    {
+      "name": "create_directory",
+      "before": 96,
+      "after": 79,
+      "saved": 17
+    },
+    {
+      "name": "list_directory",
+      "before": 98,
+      "after": 81,
+      "saved": 17
+    },
+    {
+      "name": "list_directory_with_sizes",
+      "before": 131,
+      "after": 114,
+      "saved": 17
+    },
+    {
+      "name": "directory_tree",
+      "before": 215,
+      "after": 198,
+      "saved": 17
+    },
+    {
+      "name": "move_file",
+      "before": 111,
+      "after": 94,
+      "saved": 17
+    },
+    {
+      "name": "copy_file",
+      "before": 133,
+      "after": 116,
+      "saved": 17
+    },
+    {
+      "name": "search_files",
+      "before": 172,
+      "after": 155,
+      "saved": 17
+    },
+    {
+      "name": "get_file_info",
+      "before": 96,
+      "after": 79,
+      "saved": 17
+    },
+    {
+      "name": "list_allowed_directories",
+      "before": 79,
+      "after": 62,
+      "saved": 17
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

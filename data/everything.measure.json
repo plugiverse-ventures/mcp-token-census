@@ -1,0 +1,93 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 1686,
+  "tool_count": 16,
+  "average_tokens": 105.38,
+  "tools": [
+    {
+      "name": "echo",
+      "tokens": 57,
+      "percent": 3.38
+    },
+    {
+      "name": "get-annotated-message",
+      "tokens": 105,
+      "percent": 6.23
+    },
+    {
+      "name": "get-env",
+      "tokens": 104,
+      "percent": 6.17
+    },
+    {
+      "name": "get-header-params",
+      "tokens": 178,
+      "percent": 10.56
+    },
+    {
+      "name": "get-resource-links",
+      "tokens": 80,
+      "percent": 4.74
+    },
+    {
+      "name": "get-resource-reference",
+      "tokens": 86,
+      "percent": 5.1
+    },
+    {
+      "name": "get-structured-content",
+      "tokens": 76,
+      "percent": 4.51
+    },
+    {
+      "name": "get-sum",
+      "tokens": 72,
+      "percent": 4.27
+    },
+    {
+      "name": "get-tiny-image",
+      "tokens": 45,
+      "percent": 2.67
+    },
+    {
+      "name": "gzip-file-as-resource",
+      "tokens": 243,
+      "percent": 14.41
+    },
+    {
+      "name": "trigger-list-changed",
+      "tokens": 119,
+      "percent": 7.06
+    },
+    {
+      "name": "trigger-log-messages",
+      "tokens": 131,
+      "percent": 7.77
+    },
+    {
+      "name": "trigger-long-running-operation",
+      "tokens": 86,
+      "percent": 5.1
+    },
+    {
+      "name": "trigger-resource-update",
+      "tokens": 127,
+      "percent": 7.53
+    },
+    {
+      "name": "toggle-simulated-logging",
+      "tokens": 91,
+      "percent": 5.4
+    },
+    {
+      "name": "toggle-subscriber-updates",
+      "tokens": 86,
+      "percent": 5.1
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

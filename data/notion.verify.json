@@ -1,0 +1,435 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 24,
+  "before_tokens": 17137,
+  "after_tokens": 4555,
+  "saved_tokens": 12582,
+  "saved_percent": 73.42,
+  "passes": 3,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 22,
+      "tools_changed": [
+        "API-post-page",
+        "API-query-data-source"
+      ]
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 12386,
+      "tools_changed": [
+        "API-get-user",
+        "API-get-users",
+        "API-get-self",
+        "API-post-search",
+        "API-get-block-children",
+        "API-patch-block-children",
+        "API-retrieve-a-block",
+        "API-update-a-block",
+        "API-delete-a-block",
+        "API-retrieve-a-page",
+        "API-patch-page",
+        "API-post-page",
+        "API-retrieve-a-page-property",
+        "API-retrieve-a-comment",
+        "API-create-a-comment",
+        "API-query-data-source",
+        "API-retrieve-a-data-source",
+        "API-update-a-data-source",
+        "API-create-a-data-source",
+        "API-list-data-source-templates",
+        "API-retrieve-a-database",
+        "API-move-page",
+        "API-retrieve-page-markdown",
+        "API-update-page-markdown"
+      ]
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 4,
+      "tools_changed": [
+        "API-post-search"
+      ]
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 6,
+      "tools_changed": [
+        "API-create-a-comment"
+      ]
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 164,
+      "tools_changed": [
+        "API-get-users",
+        "API-get-self",
+        "API-post-search",
+        "API-patch-block-children",
+        "API-update-a-block",
+        "API-patch-page",
+        "API-post-page",
+        "API-create-a-comment",
+        "API-query-data-source",
+        "API-update-a-data-source",
+        "API-create-a-data-source",
+        "API-move-page",
+        "API-update-page-markdown"
+      ]
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "API-get-user",
+      "before": 590,
+      "after": 51,
+      "saved": 539
+    },
+    {
+      "name": "API-get-users",
+      "before": 648,
+      "after": 106,
+      "saved": 542
+    },
+    {
+      "name": "API-get-self",
+      "before": 580,
+      "after": 39,
+      "saved": 541
+    },
+    {
+      "name": "API-post-search",
+      "before": 1082,
+      "after": 526,
+      "saved": 556
+    },
+    {
+      "name": "API-get-block-children",
+      "before": 678,
+      "after": 139,
+      "saved": 539
+    },
+    {
+      "name": "API-patch-block-children",
+      "before": 698,
+      "after": 353,
+      "saved": 345
+    },
+    {
+      "name": "API-retrieve-a-block",
+      "before": 597,
+      "after": 58,
+      "saved": 539
+    },
+    {
+      "name": "API-update-a-block",
+      "before": 712,
+      "after": 168,
+      "saved": 544
+    },
+    {
+      "name": "API-delete-a-block",
+      "before": 596,
+      "after": 57,
+      "saved": 539
+    },
+    {
+      "name": "API-retrieve-a-page",
+      "before": 665,
+      "after": 126,
+      "saved": 539
+    },
+    {
+      "name": "API-patch-page",
+      "before": 875,
+      "after": 332,
+      "saved": 543
+    },
+    {
+      "name": "API-post-page",
+      "before": 805,
+      "after": 320,
+      "saved": 485
+    },
+    {
+      "name": "API-retrieve-a-page-property",
+      "before": 688,
+      "after": 149,
+      "saved": 539
+    },
+    {
+      "name": "API-retrieve-a-comment",
+      "before": 672,
+      "after": 133,
+      "saved": 539
+    },
+    {
+      "name": "API-create-a-comment",
+      "before": 710,
+      "after": 146,
+      "saved": 564
+    },
+    {
+      "name": "API-query-data-source",
+      "before": 755,
+      "after": 215,
+      "saved": 540
+    },
+    {
+      "name": "API-retrieve-a-data-source",
+      "before": 602,
+      "after": 63,
+      "saved": 539
+    },
+    {
+      "name": "API-update-a-data-source",
+      "before": 705,
+      "after": 224,
+      "saved": 481
+    },
+    {
+      "name": "API-create-a-data-source",
+      "before": 672,
+      "after": 189,
+      "saved": 483
+    },
+    {
+      "name": "API-list-data-source-templates",
+      "before": 624,
+      "after": 85,
+      "saved": 539
+    },
+    {
+      "name": "API-retrieve-a-database",
+      "before": 598,
+      "after": 59,
+      "saved": 539
+    },
+    {
+      "name": "API-move-page",
+      "before": 627,
+      "after": 167,
+      "saved": 460
+    },
+    {
+      "name": "API-retrieve-page-markdown",
+      "before": 691,
+      "after": 152,
+      "saved": 539
+    },
+    {
+      "name": "API-update-page-markdown",
+      "before": 1267,
+      "after": 698,
+      "saved": 569
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": [
+    {
+      "tool": "API-get-user",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-get-users",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-get-self",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-post-search",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-get-block-children",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-patch-block-children",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-block",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-update-a-block",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-delete-a-block",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-page",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-patch-page",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-post-page",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-page-property",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-comment",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-create-a-comment",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-query-data-source",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-data-source",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-update-a-data-source",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-create-a-data-source",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-list-data-source-templates",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-a-database",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-move-page",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-retrieve-page-markdown",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "API-update-page-markdown",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 14,
+  "before_tokens": 1401,
+  "after_tokens": 1195,
+  "saved_tokens": 206,
+  "saved_percent": 14.7,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 156,
+      "tools_changed": [
+        "git_status",
+        "git_diff_unstaged",
+        "git_diff_staged",
+        "git_diff",
+        "git_commit",
+        "git_add",
+        "git_reset",
+        "git_log",
+        "git_create_branch",
+        "git_checkout",
+        "git_merge",
+        "git_show",
+        "git_branch",
+        "git_remote"
+      ]
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 30,
+      "tools_changed": [
+        "git_log",
+        "git_create_branch",
+        "git_branch"
+      ]
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 20,
+      "tools_changed": [
+        "git_log",
+        "git_create_branch",
+        "git_branch"
+      ]
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "git_status",
+      "before": 46,
+      "after": 41,
+      "saved": 5
+    },
+    {
+      "name": "git_diff_unstaged",
+      "before": 75,
+      "after": 65,
+      "saved": 10
+    },
+    {
+      "name": "git_diff_staged",
+      "before": 69,
+      "after": 59,
+      "saved": 10
+    },
+    {
+      "name": "git_diff",
+      "before": 92,
+      "after": 78,
+      "saved": 14
+    },
+    {
+      "name": "git_commit",
+      "before": 59,
+      "after": 50,
+      "saved": 9
+    },
+    {
+      "name": "git_add",
+      "before": 73,
+      "after": 64,
+      "saved": 9
+    },
+    {
+      "name": "git_reset",
+      "before": 47,
+      "after": 42,
+      "saved": 5
+    },
+    {
+      "name": "git_log",
+      "before": 260,
+      "after": 220,
+      "saved": 40
+    },
+    {
+      "name": "git_create_branch",
+      "before": 126,
+      "after": 101,
+      "saved": 25
+    },
+    {
+      "name": "git_checkout",
+      "before": 60,
+      "after": 50,
+      "saved": 10
+    },
+    {
+      "name": "git_merge",
+      "before": 147,
+      "after": 131,
+      "saved": 16
+    },
+    {
+      "name": "git_show",
+      "before": 75,
+      "after": 66,
+      "saved": 9
+    },
+    {
+      "name": "git_branch",
+      "before": 190,
+      "after": 151,
+      "saved": 39
+    },
+    {
+      "name": "git_remote",
+      "before": 82,
+      "after": 77,
+      "saved": 5
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

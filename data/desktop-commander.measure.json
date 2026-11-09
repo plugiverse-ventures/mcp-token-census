@@ -1,0 +1,138 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 9763,
+  "tool_count": 25,
+  "average_tokens": 390.52,
+  "tools": [
+    {
+      "name": "get_config",
+      "tokens": 231,
+      "percent": 2.37
+    },
+    {
+      "name": "set_config_value",
+      "tokens": 289,
+      "percent": 2.96
+    },
+    {
+      "name": "read_file",
+      "tokens": 935,
+      "percent": 9.58
+    },
+    {
+      "name": "read_multiple_files",
+      "tokens": 258,
+      "percent": 2.64
+    },
+    {
+      "name": "write_file",
+      "tokens": 449,
+      "percent": 4.6
+    },
+    {
+      "name": "write_pdf",
+      "tokens": 860,
+      "percent": 8.81
+    },
+    {
+      "name": "create_directory",
+      "tokens": 203,
+      "percent": 2.08
+    },
+    {
+      "name": "list_directory",
+      "tokens": 498,
+      "percent": 5.1
+    },
+    {
+      "name": "move_file",
+      "tokens": 217,
+      "percent": 2.22
+    },
+    {
+      "name": "start_search",
+      "tokens": 1306,
+      "percent": 13.38
+    },
+    {
+      "name": "get_more_search_results",
+      "tokens": 341,
+      "percent": 3.49
+    },
+    {
+      "name": "stop_search",
+      "tokens": 155,
+      "percent": 1.59
+    },
+    {
+      "name": "list_searches",
+      "tokens": 113,
+      "percent": 1.16
+    },
+    {
+      "name": "get_file_info",
+      "tokens": 279,
+      "percent": 2.86
+    },
+    {
+      "name": "edit_block",
+      "tokens": 853,
+      "percent": 8.74
+    },
+    {
+      "name": "start_process",
+      "tokens": 903,
+      "percent": 9.25
+    },
+    {
+      "name": "read_process_output",
+      "tokens": 495,
+      "percent": 5.07
+    },
+    {
+      "name": "interact_with_process",
+      "tokens": 411,
+      "percent": 4.21
+    },
+    {
+      "name": "force_terminate",
+      "tokens": 87,
+      "percent": 0.89
+    },
+    {
+      "name": "list_sessions",
+      "tokens": 170,
+      "percent": 1.74
+    },
+    {
+      "name": "list_processes",
+      "tokens": 96,
+      "percent": 0.98
+    },
+    {
+      "name": "kill_process",
+      "tokens": 101,
+      "percent": 1.03
+    },
+    {
+      "name": "get_usage_stats",
+      "tokens": 98,
+      "percent": 1.0
+    },
+    {
+      "name": "get_recent_tool_calls",
+      "tokens": 241,
+      "percent": 2.47
+    },
+    {
+      "name": "give_feedback_to_desktop_commander",
+      "tokens": 174,
+      "percent": 1.78
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

@@ -1,0 +1,23 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 1060,
+  "tool_count": 2,
+  "average_tokens": 530.0,
+  "tools": [
+    {
+      "name": "resolve-library-id",
+      "tokens": 607,
+      "percent": 57.26
+    },
+    {
+      "name": "query-docs",
+      "tokens": 453,
+      "percent": 42.74
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

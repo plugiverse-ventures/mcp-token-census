@@ -1,0 +1,189 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 16,
+  "before_tokens": 1686,
+  "after_tokens": 1414,
+  "saved_tokens": 272,
+  "saved_percent": 16.13,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 272,
+      "tools_changed": [
+        "echo",
+        "get-annotated-message",
+        "get-env",
+        "get-header-params",
+        "get-resource-links",
+        "get-resource-reference",
+        "get-structured-content",
+        "get-sum",
+        "get-tiny-image",
+        "gzip-file-as-resource",
+        "trigger-list-changed",
+        "trigger-log-messages",
+        "trigger-long-running-operation",
+        "trigger-resource-update",
+        "toggle-simulated-logging",
+        "toggle-subscriber-updates"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "echo",
+      "before": 57,
+      "after": 40,
+      "saved": 17
+    },
+    {
+      "name": "get-annotated-message",
+      "before": 105,
+      "after": 88,
+      "saved": 17
+    },
+    {
+      "name": "get-env",
+      "before": 104,
+      "after": 87,
+      "saved": 17
+    },
+    {
+      "name": "get-header-params",
+      "before": 178,
+      "after": 161,
+      "saved": 17
+    },
+    {
+      "name": "get-resource-links",
+      "before": 80,
+      "after": 63,
+      "saved": 17
+    },
+    {
+      "name": "get-resource-reference",
+      "before": 86,
+      "after": 69,
+      "saved": 17
+    },
+    {
+      "name": "get-structured-content",
+      "before": 76,
+      "after": 59,
+      "saved": 17
+    },
+    {
+      "name": "get-sum",
+      "before": 72,
+      "after": 55,
+      "saved": 17
+    },
+    {
+      "name": "get-tiny-image",
+      "before": 45,
+      "after": 28,
+      "saved": 17
+    },
+    {
+      "name": "gzip-file-as-resource",
+      "before": 243,
+      "after": 226,
+      "saved": 17
+    },
+    {
+      "name": "trigger-list-changed",
+      "before": 119,
+      "after": 102,
+      "saved": 17
+    },
+    {
+      "name": "trigger-log-messages",
+      "before": 131,
+      "after": 114,
+      "saved": 17
+    },
+    {
+      "name": "trigger-long-running-operation",
+      "before": 86,
+      "after": 69,
+      "saved": 17
+    },
+    {
+      "name": "trigger-resource-update",
+      "before": 127,
+      "after": 110,
+      "saved": 17
+    },
+    {
+      "name": "toggle-simulated-logging",
+      "before": 91,
+      "after": 74,
+      "saved": 17
+    },
+    {
+      "name": "toggle-subscriber-updates",
+      "before": 86,
+      "after": 69,
+      "saved": 17
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

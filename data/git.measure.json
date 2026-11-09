@@ -1,0 +1,83 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 1401,
+  "tool_count": 14,
+  "average_tokens": 100.07,
+  "tools": [
+    {
+      "name": "git_status",
+      "tokens": 46,
+      "percent": 3.28
+    },
+    {
+      "name": "git_diff_unstaged",
+      "tokens": 75,
+      "percent": 5.35
+    },
+    {
+      "name": "git_diff_staged",
+      "tokens": 69,
+      "percent": 4.93
+    },
+    {
+      "name": "git_diff",
+      "tokens": 92,
+      "percent": 6.57
+    },
+    {
+      "name": "git_commit",
+      "tokens": 59,
+      "percent": 4.21
+    },
+    {
+      "name": "git_add",
+      "tokens": 73,
+      "percent": 5.21
+    },
+    {
+      "name": "git_reset",
+      "tokens": 47,
+      "percent": 3.35
+    },
+    {
+      "name": "git_log",
+      "tokens": 260,
+      "percent": 18.56
+    },
+    {
+      "name": "git_create_branch",
+      "tokens": 126,
+      "percent": 8.99
+    },
+    {
+      "name": "git_checkout",
+      "tokens": 60,
+      "percent": 4.28
+    },
+    {
+      "name": "git_merge",
+      "tokens": 147,
+      "percent": 10.49
+    },
+    {
+      "name": "git_show",
+      "tokens": 75,
+      "percent": 5.35
+    },
+    {
+      "name": "git_branch",
+      "tokens": 190,
+      "percent": 13.56
+    },
+    {
+      "name": "git_remote",
+      "tokens": 82,
+      "percent": 5.85
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

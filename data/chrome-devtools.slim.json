@@ -1,0 +1,303 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 32,
+  "before_tokens": 6184,
+  "after_tokens": 5639,
+  "saved_tokens": 545,
+  "saved_percent": 8.81,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 1,
+      "tools_changed": [
+        "evaluate_script"
+      ]
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 544,
+      "tools_changed": [
+        "click",
+        "close_page",
+        "drag",
+        "emulate",
+        "evaluate_script",
+        "fill",
+        "fill_form",
+        "get_console_message",
+        "get_css_styles",
+        "get_network_request",
+        "handle_dialog",
+        "hover",
+        "lighthouse_audit",
+        "list_console_messages",
+        "list_network_requests",
+        "list_pages",
+        "navigate_page",
+        "new_page",
+        "performance_analyze_insight",
+        "performance_start_trace",
+        "performance_stop_trace",
+        "press_key",
+        "resize_page",
+        "screencast_start",
+        "screencast_stop",
+        "select_page",
+        "take_heapsnapshot",
+        "take_screenshot",
+        "take_snapshot",
+        "type_text",
+        "upload_file",
+        "wait_for"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "click",
+      "before": 135,
+      "after": 118,
+      "saved": 17
+    },
+    {
+      "name": "close_page",
+      "before": 86,
+      "after": 69,
+      "saved": 17
+    },
+    {
+      "name": "drag",
+      "before": 133,
+      "after": 116,
+      "saved": 17
+    },
+    {
+      "name": "emulate",
+      "before": 576,
+      "after": 559,
+      "saved": 17
+    },
+    {
+      "name": "evaluate_script",
+      "before": 430,
+      "after": 412,
+      "saved": 18
+    },
+    {
+      "name": "fill",
+      "before": 165,
+      "after": 148,
+      "saved": 17
+    },
+    {
+      "name": "fill_form",
+      "before": 248,
+      "after": 231,
+      "saved": 17
+    },
+    {
+      "name": "get_console_message",
+      "before": 110,
+      "after": 93,
+      "saved": 17
+    },
+    {
+      "name": "get_css_styles",
+      "before": 307,
+      "after": 290,
+      "saved": 17
+    },
+    {
+      "name": "get_network_request",
+      "before": 218,
+      "after": 201,
+      "saved": 17
+    },
+    {
+      "name": "handle_dialog",
+      "before": 120,
+      "after": 103,
+      "saved": 17
+    },
+    {
+      "name": "hover",
+      "before": 114,
+      "after": 97,
+      "saved": 17
+    },
+    {
+      "name": "lighthouse_audit",
+      "before": 188,
+      "after": 171,
+      "saved": 17
+    },
+    {
+      "name": "list_console_messages",
+      "before": 339,
+      "after": 322,
+      "saved": 17
+    },
+    {
+      "name": "list_network_requests",
+      "before": 277,
+      "after": 260,
+      "saved": 17
+    },
+    {
+      "name": "list_pages",
+      "before": 50,
+      "after": 33,
+      "saved": 17
+    },
+    {
+      "name": "navigate_page",
+      "before": 262,
+      "after": 245,
+      "saved": 17
+    },
+    {
+      "name": "new_page",
+      "before": 216,
+      "after": 199,
+      "saved": 17
+    },
+    {
+      "name": "performance_analyze_insight",
+      "before": 168,
+      "after": 151,
+      "saved": 17
+    },
+    {
+      "name": "performance_start_trace",
+      "before": 265,
+      "after": 248,
+      "saved": 17
+    },
+    {
+      "name": "performance_stop_trace",
+      "before": 123,
+      "after": 106,
+      "saved": 17
+    },
+    {
+      "name": "press_key",
+      "before": 169,
+      "after": 152,
+      "saved": 17
+    },
+    {
+      "name": "resize_page",
+      "before": 131,
+      "after": 114,
+      "saved": 17
+    },
+    {
+      "name": "screencast_start",
+      "before": 108,
+      "after": 91,
+      "saved": 17
+    },
+    {
+      "name": "screencast_stop",
+      "before": 77,
+      "after": 60,
+      "saved": 17
+    },
+    {
+      "name": "select_page",
+      "before": 104,
+      "after": 87,
+      "saved": 17
+    },
+    {
+      "name": "take_heapsnapshot",
+      "before": 117,
+      "after": 100,
+      "saved": 17
+    },
+    {
+      "name": "take_screenshot",
+      "before": 254,
+      "after": 237,
+      "saved": 17
+    },
+    {
+      "name": "take_snapshot",
+      "before": 189,
+      "after": 172,
+      "saved": 17
+    },
+    {
+      "name": "type_text",
+      "before": 117,
+      "after": 100,
+      "saved": 17
+    },
+    {
+      "name": "upload_file",
+      "before": 176,
+      "after": 159,
+      "saved": 17
+    },
+    {
+      "name": "wait_for",
+      "before": 212,
+      "after": 195,
+      "saved": 17
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": []
+}

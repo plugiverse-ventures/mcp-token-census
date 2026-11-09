@@ -1,0 +1,58 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 1517,
+  "tool_count": 9,
+  "average_tokens": 168.56,
+  "tools": [
+    {
+      "name": "create_entities",
+      "tokens": 181,
+      "percent": 11.93
+    },
+    {
+      "name": "create_relations",
+      "tokens": 136,
+      "percent": 8.97
+    },
+    {
+      "name": "add_observations",
+      "tokens": 121,
+      "percent": 7.98
+    },
+    {
+      "name": "delete_entities",
+      "tokens": 76,
+      "percent": 5.01
+    },
+    {
+      "name": "delete_observations",
+      "tokens": 121,
+      "percent": 7.98
+    },
+    {
+      "name": "delete_relations",
+      "tokens": 135,
+      "percent": 8.9
+    },
+    {
+      "name": "read_graph",
+      "tokens": 228,
+      "percent": 15.03
+    },
+    {
+      "name": "search_nodes",
+      "tokens": 289,
+      "percent": 19.05
+    },
+    {
+      "name": "open_nodes",
+      "tokens": 230,
+      "percent": 15.16
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

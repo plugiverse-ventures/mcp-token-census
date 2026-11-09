@@ -1,0 +1,93 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 2236,
+  "tool_count": 16,
+  "average_tokens": 139.75,
+  "tools": [
+    {
+      "name": "read_file",
+      "tokens": 133,
+      "percent": 5.95
+    },
+    {
+      "name": "read_text_file",
+      "tokens": 212,
+      "percent": 9.48
+    },
+    {
+      "name": "read_media_file",
+      "tokens": 93,
+      "percent": 4.16
+    },
+    {
+      "name": "read_multiple_files",
+      "tokens": 141,
+      "percent": 6.31
+    },
+    {
+      "name": "write_file",
+      "tokens": 93,
+      "percent": 4.16
+    },
+    {
+      "name": "append_file",
+      "tokens": 153,
+      "percent": 6.84
+    },
+    {
+      "name": "edit_file",
+      "tokens": 280,
+      "percent": 12.52
+    },
+    {
+      "name": "create_directory",
+      "tokens": 96,
+      "percent": 4.29
+    },
+    {
+      "name": "list_directory",
+      "tokens": 98,
+      "percent": 4.38
+    },
+    {
+      "name": "list_directory_with_sizes",
+      "tokens": 131,
+      "percent": 5.86
+    },
+    {
+      "name": "directory_tree",
+      "tokens": 215,
+      "percent": 9.62
+    },
+    {
+      "name": "move_file",
+      "tokens": 111,
+      "percent": 4.96
+    },
+    {
+      "name": "copy_file",
+      "tokens": 133,
+      "percent": 5.95
+    },
+    {
+      "name": "search_files",
+      "tokens": 172,
+      "percent": 7.69
+    },
+    {
+      "name": "get_file_info",
+      "tokens": 96,
+      "percent": 4.29
+    },
+    {
+      "name": "list_allowed_directories",
+      "tokens": 79,
+      "percent": 3.53
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}

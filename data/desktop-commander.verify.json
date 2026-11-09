@@ -1,0 +1,456 @@
+{
+  "toolism_report": 1,
+  "kind": "slim",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "attribution_tokenizer": "tiktoken:o200k_base",
+  "level": "safe",
+  "tool_count": 25,
+  "before_tokens": 9763,
+  "after_tokens": 9011,
+  "saved_tokens": 752,
+  "saved_percent": 7.7,
+  "passes": 2,
+  "rules": [
+    {
+      "id": "SL001",
+      "name": "redundant-title",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL002",
+      "name": "nullable-anyof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL003",
+      "name": "null-default",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL004",
+      "name": "inline-defs",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL005",
+      "name": "description-whitespace",
+      "tokens_saved": 367,
+      "tools_changed": [
+        "get_config",
+        "set_config_value",
+        "read_file",
+        "read_multiple_files",
+        "write_file",
+        "write_pdf",
+        "create_directory",
+        "list_directory",
+        "move_file",
+        "start_search",
+        "get_more_search_results",
+        "stop_search",
+        "list_searches",
+        "get_file_info",
+        "edit_block",
+        "start_process",
+        "read_process_output",
+        "interact_with_process",
+        "force_terminate",
+        "list_sessions",
+        "list_processes",
+        "kill_process",
+        "get_usage_stats",
+        "get_recent_tool_calls",
+        "give_feedback_to_desktop_commander"
+      ]
+    },
+    {
+      "id": "SL006",
+      "name": "echo-description",
+      "tokens_saved": 0,
+      "tools_changed": []
+    },
+    {
+      "id": "SL008",
+      "name": "noop-keywords",
+      "tokens_saved": 10,
+      "tools_changed": [
+        "write_pdf"
+      ]
+    },
+    {
+      "id": "SL009",
+      "name": "schema-uri",
+      "tokens_saved": 375,
+      "tools_changed": [
+        "get_config",
+        "set_config_value",
+        "read_file",
+        "read_multiple_files",
+        "write_file",
+        "write_pdf",
+        "create_directory",
+        "list_directory",
+        "move_file",
+        "start_search",
+        "get_more_search_results",
+        "stop_search",
+        "list_searches",
+        "get_file_info",
+        "edit_block",
+        "start_process",
+        "read_process_output",
+        "interact_with_process",
+        "force_terminate",
+        "list_sessions",
+        "list_processes",
+        "kill_process",
+        "get_usage_stats",
+        "get_recent_tool_calls",
+        "give_feedback_to_desktop_commander"
+      ]
+    },
+    {
+      "id": "SL010",
+      "name": "single-allof",
+      "tokens_saved": 0,
+      "tools_changed": []
+    }
+  ],
+  "tools": [
+    {
+      "name": "get_config",
+      "before": 231,
+      "after": 202,
+      "saved": 29
+    },
+    {
+      "name": "set_config_value",
+      "before": 289,
+      "after": 251,
+      "saved": 38
+    },
+    {
+      "name": "read_file",
+      "before": 935,
+      "after": 899,
+      "saved": 36
+    },
+    {
+      "name": "read_multiple_files",
+      "before": 258,
+      "after": 234,
+      "saved": 24
+    },
+    {
+      "name": "write_file",
+      "before": 449,
+      "after": 431,
+      "saved": 18
+    },
+    {
+      "name": "write_pdf",
+      "before": 860,
+      "after": 830,
+      "saved": 30
+    },
+    {
+      "name": "create_directory",
+      "before": 203,
+      "after": 181,
+      "saved": 22
+    },
+    {
+      "name": "list_directory",
+      "before": 498,
+      "after": 468,
+      "saved": 30
+    },
+    {
+      "name": "move_file",
+      "before": 217,
+      "after": 195,
+      "saved": 22
+    },
+    {
+      "name": "start_search",
+      "before": 1306,
+      "after": 1259,
+      "saved": 47
+    },
+    {
+      "name": "get_more_search_results",
+      "before": 341,
+      "after": 299,
+      "saved": 42
+    },
+    {
+      "name": "stop_search",
+      "before": 155,
+      "after": 127,
+      "saved": 28
+    },
+    {
+      "name": "list_searches",
+      "before": 113,
+      "after": 87,
+      "saved": 26
+    },
+    {
+      "name": "get_file_info",
+      "before": 279,
+      "after": 259,
+      "saved": 20
+    },
+    {
+      "name": "edit_block",
+      "before": 853,
+      "after": 835,
+      "saved": 18
+    },
+    {
+      "name": "start_process",
+      "before": 903,
+      "after": 875,
+      "saved": 28
+    },
+    {
+      "name": "read_process_output",
+      "before": 495,
+      "after": 439,
+      "saved": 56
+    },
+    {
+      "name": "interact_with_process",
+      "before": 411,
+      "after": 362,
+      "saved": 49
+    },
+    {
+      "name": "force_terminate",
+      "before": 87,
+      "after": 66,
+      "saved": 21
+    },
+    {
+      "name": "list_sessions",
+      "before": 170,
+      "after": 135,
+      "saved": 35
+    },
+    {
+      "name": "list_processes",
+      "before": 96,
+      "after": 72,
+      "saved": 24
+    },
+    {
+      "name": "kill_process",
+      "before": 101,
+      "after": 80,
+      "saved": 21
+    },
+    {
+      "name": "get_usage_stats",
+      "before": 98,
+      "after": 74,
+      "saved": 24
+    },
+    {
+      "name": "get_recent_tool_calls",
+      "before": 241,
+      "after": 207,
+      "saved": 34
+    },
+    {
+      "name": "give_feedback_to_desktop_commander",
+      "before": 174,
+      "after": 144,
+      "saved": 30
+    }
+  ],
+  "uncounted": [],
+  "warnings": [],
+  "rollbacks": [],
+  "verification": [
+    {
+      "tool": "get_config",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "set_config_value",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "read_file",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "read_multiple_files",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "write_file",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "write_pdf",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "create_directory",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "list_directory",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "move_file",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "start_search",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "get_more_search_results",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "stop_search",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "list_searches",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "get_file_info",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "edit_block",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "start_process",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "read_process_output",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "interact_with_process",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "force_terminate",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "list_sessions",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "list_processes",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "kill_process",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "get_usage_stats",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "get_recent_tool_calls",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    },
+    {
+      "tool": "give_feedback_to_desktop_commander",
+      "verdict": "equivalent",
+      "method": "sampled",
+      "direction": null,
+      "reason": ""
+    }
+  ]
+}

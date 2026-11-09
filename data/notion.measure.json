@@ -1,0 +1,133 @@
+{
+  "toolism_report": 1,
+  "kind": "measure",
+  "tokenizer": "tiktoken:o200k_base",
+  "approximate": true,
+  "total_tokens": 17137,
+  "tool_count": 24,
+  "average_tokens": 714.04,
+  "tools": [
+    {
+      "name": "API-get-user",
+      "tokens": 590,
+      "percent": 3.44
+    },
+    {
+      "name": "API-get-users",
+      "tokens": 648,
+      "percent": 3.78
+    },
+    {
+      "name": "API-get-self",
+      "tokens": 580,
+      "percent": 3.38
+    },
+    {
+      "name": "API-post-search",
+      "tokens": 1082,
+      "percent": 6.31
+    },
+    {
+      "name": "API-get-block-children",
+      "tokens": 678,
+      "percent": 3.96
+    },
+    {
+      "name": "API-patch-block-children",
+      "tokens": 698,
+      "percent": 4.07
+    },
+    {
+      "name": "API-retrieve-a-block",
+      "tokens": 597,
+      "percent": 3.48
+    },
+    {
+      "name": "API-update-a-block",
+      "tokens": 712,
+      "percent": 4.15
+    },
+    {
+      "name": "API-delete-a-block",
+      "tokens": 596,
+      "percent": 3.48
+    },
+    {
+      "name": "API-retrieve-a-page",
+      "tokens": 665,
+      "percent": 3.88
+    },
+    {
+      "name": "API-patch-page",
+      "tokens": 875,
+      "percent": 5.11
+    },
+    {
+      "name": "API-post-page",
+      "tokens": 805,
+      "percent": 4.7
+    },
+    {
+      "name": "API-retrieve-a-page-property",
+      "tokens": 688,
+      "percent": 4.01
+    },
+    {
+      "name": "API-retrieve-a-comment",
+      "tokens": 672,
+      "percent": 3.92
+    },
+    {
+      "name": "API-create-a-comment",
+      "tokens": 710,
+      "percent": 4.14
+    },
+    {
+      "name": "API-query-data-source",
+      "tokens": 755,
+      "percent": 4.41
+    },
+    {
+      "name": "API-retrieve-a-data-source",
+      "tokens": 602,
+      "percent": 3.51
+    },
+    {
+      "name": "API-update-a-data-source",
+      "tokens": 705,
+      "percent": 4.11
+    },
+    {
+      "name": "API-create-a-data-source",
+      "tokens": 672,
+      "percent": 3.92
+    },
+    {
+      "name": "API-list-data-source-templates",
+      "tokens": 624,
+      "percent": 3.64
+    },
+    {
+      "name": "API-retrieve-a-database",
+      "tokens": 598,
+      "percent": 3.49
+    },
+    {
+      "name": "API-move-page",
+      "tokens": 627,
+      "percent": 3.66
+    },
+    {
+      "name": "API-retrieve-page-markdown",
+      "tokens": 691,
+      "percent": 4.03
+    },
+    {
+      "name": "API-update-page-markdown",
+      "tokens": 1267,
+      "percent": 7.39
+    }
+  ],
+  "uncounted": [],
+  "warnings": []
+}
